@@ -3,10 +3,10 @@ kind: Pod
 metadata:
    name: test-pod
    labels:
-     app: nginx_app
+     name: nginx_app
 spec: 
   containers: 
-    - image: "nginx_test99:v1"
+    - image: "nginx_test98:v1"
       name: test-container01
       resources:
         limits:
